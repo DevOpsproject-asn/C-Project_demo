@@ -43,7 +43,7 @@ jobs:
       run: ctest --output-on-failure
     
     - name: Build with Make (alternative method)
-      run: make all-targets
+      run: make all
     
     - name: Run tests with Make
       run: make test
