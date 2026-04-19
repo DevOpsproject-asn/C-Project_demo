@@ -1,0 +1,39 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+LICENSE
+
+# GitHub
+.github/
+
+# Build artifacts (local)
+build/
+dist/
+out/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile

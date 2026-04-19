@@ -1,0 +1,49 @@
+# Build directories
+build/
+dist/
+out/
+.build/
+
+# Compiled object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Dependency directories
+dependencies/
+third_party/
+
+# Test outputs
+*.out
+test_results.txt
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
